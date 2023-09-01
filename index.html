@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Goverment College of Engineering </title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		header{
+			display: flex;
+			padding: 10px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+		}
+
+		
+		img{
+			height:80px;
+		}
+
+		.menu{
+			padding-top: 20px;
+			padding-left: 10%;
+		}
+		.menu ul{
+			display: flex;
+		}
+		.menu ul li{
+			list-style: none;
+			padding-left: 20px;
+			width: 120px;
+			text-align: center;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			color: black;
+			font-family: all;
+			font-size: 22px;
+
+		}
+
+		.menu ul li a:hover {
+			
+			color: orange;
+			
+		}
+
+		.dropbtn{
+			border: none;
+			background-color: white;
+			font-family: all;
+			color: black;
+			font-size: 22px;
+		}
+
+		.dropdown{
+			position: relative;
+			display: inline-block;
+		}
+
+		.ddown{
+			width: 250px;
+			display: none;
+			position: absolute;
+			text-align: left;
+			background-color: white;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;	
+			padding: 10px;
+
+		}
+
+		.ddown a{
+			display: block;
+		}
+
+		.ddown a:hover{
+			background-color: white;
+		}
+
+		.dropdown:hover .ddown{
+			display: block;
+		}
+
+		.content{
+			color: black;
+			height: 100vh;
+			width: 100%;
+			display: flex;
+		}
+
+		.left{
+			width: 20%;
+			padding: 10px;
+			box-shadow: 2px 5px 16px 0px rgba(0,0,0,0.2);
+
+		}
+
+		.left h1{
+			text-align: center;
+			text-decoration: underline;
+			font-size: 50px;
+			color: green;
+			padding-bottom: 20px;
+		}
+
+		.right{
+			padding: 10px;
+			width: 80%;
+		}
+
+		.thread{
+			border-bottom: 1px solid red;
+			display: flex;
+		}
+
+		.p p{
+			padding-left: 20px;
+		}
+
+		.bdy
+		{
+			text-align: center;
+			padding-top: 200px;
+		}
+
+		.bdy h1{
+			font-size: 150px;
+		}
+
+
+
+		footer{
+			color: black;
+			box-shadow: 0px -15px 16px 0px rgba(0,0,0,0.2);
+			height: 70px;
+			text-align: center;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.png">
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#" style="color: orange; ">Home</a></li>
+				<li>
+					<div class="dropdown"> 
+						<button class="dropbtn">Department</button>
+						<div class="ddown">
+							<a href="#">Civil</a>
+							<a href="#">Computer Science</a>
+							<a href="#">Electronics</a>
+							<a href="#">Electrical</a>
+							<a href="#">Mechanical</a>
+							<a href="#">Minning</a>
+							<a href="#">Cemical Engineering</a>
+						</div>
+					</div>
+				</li>
+				<li><a href="#">Faculty</a></li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">Placement</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contact us</a></li>
+
+			</ul>
+		</div>
+	</header>
+	<div class="content">
+		<div class="left">
+			<h1>Notice</h1>
+			<marquee direction="up" height="500vh" onmouseover="this.stop();" onmouseout="this.start();" >
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">1. Notice for task 1 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">2. Notice for task 2 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">3. Notice for task 3 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">4. Notice for task 4 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">5. Notice for task 5 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">6. Notice for task 6 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">7. Notice for task 7 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">8. Notice for task 8 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">9. Notice for task 9 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">10. Notice for task 10 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				<p style="border-bottom: 1px solid black"><a href="#" target="_blank" style="color: black; text-decoration: none;">11. Notice for task 11 of PHN internship program for web development and design interns.</a></p>
+				<br>
+				
+			</marquee>
+		</div>
+		<div class="right">
+			<div class="thread">
+				<h4 style="width: 150px;">Announcement</h4>
+				<marquee >
+					<div class="p" style="display: flex;">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+							<p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p> Excepteur sint occaecat cupidatat non proident </p>
+							<p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+					</div>
+					
+				</marquee>	
+			</div>
+			<div class="bdy">
+				<h1>Details</h1>
+			</div>
+		</div>
+	</div>
+	<footer>&copy2023|AbhilashBebarta</footer>
+</body>
+</html>
